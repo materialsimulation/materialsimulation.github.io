@@ -1,0 +1,144 @@
+HfTe2 - P2
+===================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ===============
+Last Updated                2021-01-28
+Crystal Prototype           AB2
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    3.966
+Lattice Constant *b* (Å)    6.930
+Space Group                 P2
+Formation Energy (eV/f.u.)  -1.8694
+=========================== ===============
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  58.797      8.249       0.000
+*yy*                   8.249     58.200       0.000
+*zz*                   0.000      0.000      20.061
+==================  =========  ========  =======
+ 
+2.2 Compliance Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========== ==========  ===========
+S\ :sub:`ij` (m/N)    *xx*       *yy*        *zz*
+*xx*                  0.017353   -0.002459    0.000000
+*yy*                  -0.002459   0.017531    0.000000
+*zz*                  0.000000   0.000000    0.049848
+==================  =========== ==========  ===========
+ 
+2.3 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+2.4 Anisotropic Mechanical Properties Of 2D Singlecrystal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+=======================  ============  ===========  =============
+Mechanical Properties    *Min*         *Max*        *Anisotropy*
+Young's Modulus (N/m)    50.116          57.628        1.150
+Shear Modulus (N/m)      20.061          25.124        1.252
+Poisson's Ratio          0.140          0.249           1.776
+=======================  ============  ===========  =============
+ 
+2.5 Anisotropic Mechanical Properties Of 2D Polycrystal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+=======================  ============  ===========  =============
+Mechanical Properties    *Min*         *Max*        *Anisotropy*
+Young's Modulus (N/m)    33.374          33.373        1.150
+Shear Modulus (N/m)      22.593          22.309        1.252
+=======================  ============  ===========  =============
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ==================================
+Band Character                                     Direct
+Band Gap (PBE, eV)                                 -0.2484
+Band Gap (HSE, eV)                                 0.1326
+Ionization Energy (HSE, eV)                        -4.817
+Electron Affinity (HSE, eV)                        -4.684
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    8.345
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    -0.593
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        8.909
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        0.151
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ==================================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-HfTe2_P2_1^m.jpg
+  :width: 600 
+  :align: center
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Hf-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+ 
+.. image:: ./images/BAND_PDOS_Te-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-HfTe2_P2_1^m.png
+  :width: 600 
+  :align: center
+ 
+References
+----------------
+ 
+.. note::
+   For more details of this database, please refer to the following reference.
+ 
+   [1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.

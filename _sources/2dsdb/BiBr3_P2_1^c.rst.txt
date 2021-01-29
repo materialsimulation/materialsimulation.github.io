@@ -1,0 +1,144 @@
+BiBr3 - P2
+===================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ===============
+Last Updated                2021-01-28
+Crystal Prototype           AB3
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    7.247
+Lattice Constant *b* (Å)    12.551
+Space Group                 P2
+Formation Energy (eV/f.u.)  -2.0273
+=========================== ===============
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  10.731      5.033       0.000
+*yy*                   5.033     10.899       0.000
+*zz*                   0.000      0.000       2.997
+==================  =========  ========  =======
+ 
+2.2 Compliance Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========== ==========  ===========
+S\ :sub:`ij` (m/N)    *xx*       *yy*        *zz*
+*xx*                  0.118951   -0.054930    0.000000
+*yy*                  -0.054930   0.117117    0.000000
+*zz*                  0.000000   0.000000    0.333667
+==================  =========== ==========  ===========
+ 
+2.3 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+2.4 Anisotropic Mechanical Properties Of 2D Singlecrystal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+=======================  ============  ===========  =============
+Mechanical Properties    *Min*         *Max*        *Anisotropy*
+Young's Modulus (N/m)    8.407          8.703        1.035
+Shear Modulus (N/m)      2.891          2.997        1.037
+Poisson's Ratio          0.451          0.469           1.040
+=======================  ============  ===========  =============
+ 
+2.5 Anisotropic Mechanical Properties Of 2D Polycrystal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+=======================  ============  ===========  =============
+Mechanical Properties    *Min*         *Max*        *Anisotropy*
+Young's Modulus (N/m)    7.924          7.923        1.035
+Shear Modulus (N/m)      2.944          2.943        1.037
+=======================  ============  ===========  =============
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ==================================
+Band Character                                     Direct
+Band Gap (PBE, eV)                                 2.9412
+Band Gap (HSE, eV)                                 3.8671
+Ionization Energy (HSE, eV)                        -7.895
+Electron Affinity (HSE, eV)                        -4.130
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    41.187
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    -2.403
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        1199.383
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        -138.685
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ==================================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-BiBr3_P2_1^c.jpg
+  :width: 600 
+  :align: center
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Bi-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+ 
+.. image:: ./images/BAND_PDOS_Br-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-BiBr3_P2_1^c.png
+  :width: 600 
+  :align: center
+ 
+References
+----------------
+ 
+.. note::
+   For more details of this database, please refer to the following reference.
+ 
+   [1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.
